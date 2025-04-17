@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy BLCK VC Forecast Toolkit
 
 on:
   push:
@@ -18,12 +18,62 @@ jobs:
           node-version: 16
       
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install --save-dev @types/react @types/react-dom @types/papaparse @octokit/types
+      
+      - name: Setup project files
+        run: |
+          # Create public directory if it doesn't exist
+          mkdir -p public
+          
+          # Create a simple HTML file for GitHub Pages if it doesn't exist
+          if [ ! -f public/index.html ]; then
+            echo '<!DOCTYPE html>
+            <html lang="en">
+              <head>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta name="theme-color" content="#000000" />
+                <meta name="description" content="BLCK VC Budgeting & Revenue Forecasting Toolkit" />
+                <title>BLCK VC Forecast Toolkit</title>
+              </head>
+              <body>
+                <noscript>You need to enable JavaScript to run this app.</noscript>
+                <div id="root"></div>
+              </body>
+            </html>' > public/index.html
+          fi
+          
+          # Create tailwind.config.js if it doesn't exist
+          if [ ! -f tailwind.config.js ]; then
+            echo "module.exports = {
+              content: [
+                './src/**/*.{js,jsx,ts,tsx}',
+                './public/index.html'
+              ],
+              theme: {
+                extend: {},
+              },
+              plugins: [],
+            }" > tailwind.config.js
+          fi
+          
+          # Create postcss.config.js if it doesn't exist
+          if [ ! -f postcss.config.js ]; then
+            echo "module.exports = {
+              plugins: {
+                tailwindcss: {},
+                autoprefixer: {},
+              }
+            }" > postcss.config.js
+          fi
       
       - name: Build
-        run: npm run build
+        run: CI=false npm run build
       
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
+          branch: gh-pages
