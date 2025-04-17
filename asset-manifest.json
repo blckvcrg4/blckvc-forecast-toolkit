@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/blckvc-forecast-toolkit/static/css/main.73a27c86.css",
+    "main.js": "/blckvc-forecast-toolkit/static/js/main.a2669f86.js",
+    "index.html": "/blckvc-forecast-toolkit/index.html",
+    "main.73a27c86.css.map": "/blckvc-forecast-toolkit/static/css/main.73a27c86.css.map",
+    "main.a2669f86.js.map": "/blckvc-forecast-toolkit/static/js/main.a2669f86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73a27c86.css",
+    "static/js/main.a2669f86.js"
+  ]
+}
