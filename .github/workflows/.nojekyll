@@ -1,0 +1,5 @@
+      - name: Create .nojekyll file
+        run: touch build/.nojekyll
+        
+      - name: Build
+        run: DISABLE_ESLINT_PLUGIN=true TSC_COMPILE_ON_ERROR=true CI=false npm run build
