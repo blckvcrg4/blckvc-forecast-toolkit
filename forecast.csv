@@ -1,0 +1,13 @@
+Metric,Formula,Apr-25,May-25,Jun-25,Jul-25,Aug-25,Sep-25,Oct-25,Nov-25,Dec-25,Notes
+Revenue,=Rev_Model!C23,62100,66866,293933,51045,100601,171443,6235,10089,4914,Total monthly revenue
+Expenses,=Cost_Model!C19,112875,93875,213125,93875,93875,141875,93875,93875,93875,Total monthly expenses
+Net_Income,=C3-C4,-50775,-27009,80808,-42830,6726,29568,-87640,-83786,-88961,Monthly profit/loss
+Starting_Cash_Balance,=IF(C2="Apr-25" Drivers!C78 B9),1800000,1749225,1722216,1803024,1760193,1766920,1796487,1708847,1625061,Cash at beginning of month
+Ending_Cash_Balance,=C7+C5,1749225,1722216,1803024,1760193,1766920,1796487,1708847,1625061,1536101,Cash at end of month
+Monthly_Burn,=IF(C5<0 ABS(C5) 0),50775,27009,0,42830,0,0,87640,83786,88961,Cash consumed in month (if negative)
+Monthly_Burn_Rate,=IF(AVERAGE(C11:E11)>0 AVERAGE(C11:E11) AVERAGE(OFFSET(C11 0 -3 1 3))),50775,38892,25928,38892,23268,15213,43490,57142,86795,3-month rolling average burn
+Runway_Months,=IF(C12>0 C9/C12 999),34.5,63.8,999,41.1,999,999,19.5,19.4,17.3,Months of cash remaining at current burn
+Revenue_Gap,=Targets!C3-C3,12900,8134,-218933,23955,-25601,-96443,43765,39911,45086,Gap between target and actual revenue
+Cumulative_Gap,=IF(C2="Apr-25" C14 B15+C14),12900,21034,-197899,-173944,-199545,-295988,-252223,-212312,-167226,Running total of revenue gaps
+Break_Even,=(C4-C3)/C3*100,-81.8,-40.4,27.5,-83.9,6.7,17.2,-1405.7,-830.5,-1810.4,Net income as % of revenue
+Burn_Multiple,=IF(C3>0 C11/C3 99),0.82,0.40,0.00,0.84,0.00,0.00,14.06,8.30,18.10,Burn rate divided by revenue (efficiency)

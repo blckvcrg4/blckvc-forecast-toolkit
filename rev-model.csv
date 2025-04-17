@@ -1,0 +1,22 @@
+Revenue_Stream,Formula,Apr-25,May-25,Jun-25,Jul-25,Aug-25,Sep-25,Oct-25,Nov-25,Dec-25,Notes
+BVI_Revenue,=IF(Drivers!F24=1 Drivers!F19*Drivers!F20 0),0,0,0,0,0,80000,0,0,0,Tuition revenue from BVI program
+BVI_Sponsorship,=IF(Drivers!F24=1 Drivers!F21*Drivers!F22 0),0,0,0,0,0,50000,0,0,0,Sponsorship revenue from BVI program
+SOBVR_Lead,=Drivers!C27*Drivers!C28/100,25000,0,0,0,0,0,0,0,0,Primary report sponsor
+SOBVR_Secondary,=Drivers!C29*Drivers!C30*Drivers!C31/100,30000,0,0,0,0,0,0,0,0,Secondary report sponsors
+Gala_Tickets,=IF(Drivers!E34=1 Drivers!E36*Drivers!E37 0),0,0,137500,0,0,0,0,0,0,Individual ticket sales for gala
+Gala_Tables,=IF(Drivers!E34=1 Drivers!E38*Drivers!E39 0),0,0,75000,0,0,0,0,0,0,Table sales for gala
+LA_Dinner,=IF(Drivers!D43=1 Drivers!D47*Drivers!D48/100 0),0,15000,0,0,0,0,0,0,0,Revenue from LA fundraising dinner
+SF_Dinner,=IF(Drivers!F44=1 Drivers!F47*Drivers!F48/100 0),0,0,0,15000,0,0,0,0,0,Revenue from SF fundraising dinner
+NY_Dinner,=IF(Drivers!G45=1 Drivers!G47*Drivers!G48/100 0),0,0,0,0,15000,0,0,0,0,Revenue from NY fundraising dinner
+MIA_Dinner,=IF(Drivers!H46=1 Drivers!H47*Drivers!H48/100 0),0,0,0,0,0,15000,0,0,0,Revenue from MIA fundraising dinner
+Salesforce,=Drivers!D52*Drivers!D53/100,0,40000,0,0,0,0,0,0,0,Revenue from Salesforce grant
+Google_DEI,=Drivers!E54*Drivers!E55/100,0,0,45000,0,0,0,0,0,0,Revenue from Google DEI grant
+Morgan_Stanley,=Drivers!F56*Drivers!F57/100,0,0,0,25000,0,0,0,0,0,Revenue from Morgan Stanley sponsorship
+Deloitte,=Drivers!G58*Drivers!G59/100,0,0,0,0,30000,0,0,0,0,Revenue from Deloitte sponsorship
+Delta,=Drivers!H60*Drivers!H61/100,0,0,0,0,0,15000,0,0,0,Revenue from Delta sponsorship
+Kapor,=Drivers!E64*Drivers!E65/100,0,0,30000,0,0,0,0,0,0,Revenue from Kapor Foundation grant
+MacArthur,=Drivers!G66*Drivers!G67/100,0,0,0,0,50000,0,0,0,0,Revenue from MacArthur Foundation grant
+Merchandise,=Drivers!C70,1250,1250,1250,1250,1250,1250,1250,1250,1250,Monthly merchandise sales
+Curriculum_Licensing,=Drivers!C73*Drivers!C74*Drivers!C75/100,0,5000,0,5000,0,5000,0,5000,0,Revenue from curriculum licensing
+Money_Market_Returns,=Forecast!C9*(Drivers!C77/100/12),5850,5616,5183,4795,4351,4193,3985,3839,3664,Interest earned on cash balance
+Total_Revenue,=SUM(C3:C22),62100,66866,293933,51045,100601,171443,6235,10089,4914,All revenue for the month

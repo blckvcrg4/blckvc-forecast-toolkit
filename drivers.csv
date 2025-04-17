@@ -1,0 +1,62 @@
+Category,Driver,Apr-25,May-25,Jun-25,Jul-25,Aug-25,Sep-25,Oct-25,Nov-25,Dec-25,Notes
+BVI Program,Seats_Max,40,40,40,40,40,40,40,40,40,Maximum cohort capacity
+BVI Program,Seats_Forecast,0,0,0,0,0,32,0,0,0,Expected enrollment (base case)
+BVI Program,Tuition_Per_Seat,2500,2500,2500,2500,2500,2500,2500,2500,2500,Fee per participant
+BVI Program,Sponsor_Count,0,0,0,0,0,5,0,0,0,Number of program sponsors
+BVI Program,Sponsor_Amount,10000,10000,10000,10000,10000,10000,10000,10000,10000,Fee per sponsor
+BVI Program,Program_Timing,0,0,0,0,0,1,0,0,0,1=program runs this month
+BVI Program,COGS_Percentage,60,60,60,60,60,60,60,60,60,Direct costs as % of revenue
+BVI Program,Fixed_Costs,0,0,0,0,10000,10000,0,0,0,Fixed program costs
+SOBVR,Lead_Sponsor_Fee,50000,0,0,0,0,0,0,0,0,Primary sponsor for report
+SOBVR,Lead_Sponsor_Probability,50,0,0,0,0,0,0,0,0,Likelihood of closing (%)
+SOBVR,Secondary_Sponsors,3,0,0,0,0,0,0,0,0,Number of tier 2 sponsors
+SOBVR,Secondary_Sponsor_Fee,25000,0,0,0,0,0,0,0,0,Fee per secondary sponsor
+SOBVR,Secondary_Sponsor_Probability,40,0,0,0,0,0,0,0,0,Likelihood of closing (%)
+SOBVR,COGS_Percentage,40,40,40,40,40,40,40,40,40,Direct costs as % of revenue
+Gala,Scheduled,0,0,1,0,0,0,0,0,0,1=event scheduled this month
+Gala,Tickets_Max,0,0,400,0,0,0,0,0,0,Maximum ticket capacity
+Gala,Tickets_Forecast,0,0,275,0,0,0,0,0,0,Expected tickets sold (base case)
+Gala,Avg_Ticket_Price,0,0,500,0,0,0,0,0,0,Average price per ticket
+Gala,Table_Sales,0,0,5,0,0,0,0,0,0,Number of tables sold
+Gala,Table_Price,0,0,15000,0,0,0,0,0,0,Price per table
+Gala,COGS_Percentage,0,0,50,0,0,0,0,0,0,Direct costs as % of revenue
+Gala,Fixed_Costs,0,0,20000,0,0,0,0,0,0,Fixed event costs
+Dinners,LA_Dinner_Date,0,1,0,0,0,0,0,0,0,1=LA dinner held this month
+Dinners,SF_Dinner_Date,0,0,0,1,0,0,0,0,0,1=SF dinner held this month
+Dinners,NY_Dinner_Date,0,0,0,0,1,0,0,0,0,1=NY dinner held this month
+Dinners,MIA_Dinner_Date,0,0,0,0,0,1,0,0,0,1=MIA dinner held this month
+Dinners,Avg_Pledge,25000,25000,25000,25000,25000,25000,25000,25000,25000,Average donation pledge
+Dinners,Pledge_Probability,60,60,60,60,60,60,60,60,60,Likelihood of fulfillment (%)
+Dinners,COGS_Percentage,20,20,20,20,20,20,20,20,20,Direct costs as % of revenue
+Corporate,Salesforce_Grant,0,100000,0,0,0,0,0,0,0,Grant amount
+Corporate,Salesforce_Probability,0,40,0,0,0,0,0,0,0,Likelihood of closing (%)
+Corporate,Google_DEI_Grant,0,0,75000,0,0,0,0,0,0,Grant amount
+Corporate,Google_DEI_Probability,0,0,60,0,0,0,0,0,0,Likelihood of closing (%)
+Corporate,Morgan_Stanley,0,0,0,50000,0,0,0,0,0,Sponsorship amount
+Corporate,Morgan_Stanley_Probability,0,0,0,50,0,0,0,0,0,Likelihood of closing (%)
+Corporate,Deloitte_Sponsorship,0,0,0,0,100000,0,0,0,0,Sponsorship amount
+Corporate,Deloitte_Probability,0,0,0,0,30,0,0,0,0,Likelihood of closing (%)
+Corporate,Delta_Sponsorship,0,0,0,0,0,50000,0,0,0,Sponsorship amount
+Corporate,Delta_Probability,0,0,0,0,0,30,0,0,0,Likelihood of closing (%)
+Foundation,Kapor_Grant,0,0,75000,0,0,0,0,0,0,Grant amount
+Foundation,Kapor_Probability,0,0,40,0,0,0,0,0,0,Likelihood of closing (%)
+Foundation,MacArthur_Grant,0,0,0,0,250000,0,0,0,0,Grant amount
+Foundation,MacArthur_Probability,0,0,0,0,20,0,0,0,0,Likelihood of closing (%)
+Other Revenue,Monthly_Merchandise,1250,1250,1250,1250,1250,1250,1250,1250,1250,Consistent monthly sales
+Other Revenue,Merchandise_COGS_Percentage,70,70,70,70,70,70,70,70,70,Direct costs as % of revenue
+Other Revenue,License_Count,0,1,0,1,0,1,0,1,0,Number of licenses sold
+Other Revenue,License_Fee,10000,10000,10000,10000,10000,10000,10000,10000,10000,Fee per curriculum license
+Other Revenue,License_Probability,50,50,50,50,50,50,50,50,50,Likelihood of closing (%)
+Financial,Money_Market_Rate,3.9,3.9,3.9,3.9,3.9,3.9,3.9,3.9,3.9,Annual percentage rate
+Financial,Initial_Cash_Balance,1800000,0,0,0,0,0,0,0,0,Starting cash position
+Expenses,BD_Contractor,10000,10000,10000,10000,10000,10000,10000,10000,10000,Business development contractor
+Expenses,Marketing_Contractor,7500,7500,7500,7500,7500,7500,7500,7500,7500,Marketing contractor
+Expenses,Programs_Contractor,12500,12500,12500,12500,12500,12500,12500,12500,12500,Programs management contractor
+Expenses,Ind_Giving_Contractor,5000,5000,5000,5000,5000,5000,5000,5000,5000,Individual giving contractor
+Expenses,Software_Subscriptions,2500,2500,2500,2500,2500,2500,2500,2500,2500,SaaS and tech subscriptions
+Expenses,Professional_Fees,5000,5000,5000,5000,5000,5000,5000,5000,5000,Legal and accounting fees
+Expenses,Overhead,7500,7500,7500,7500,7500,7500,7500,7500,7500,Office and admin expenses
+Expenses,CEO_Salary,15000,15000,15000,15000,15000,15000,15000,15000,15000,CEO compensation
+Expenses,Operations_Salary,8750,8750,8750,8750,8750,8750,8750,8750,8750,Operations staff compensation
+Expenses,Benefits_Percentage,20,20,20,20,20,20,20,20,20,Benefits as % of salary
+Scenario,Toggle,2,2,2,2,2,2,2,2,2,"1=Optimistic, 2=Base, 3=Conservative"

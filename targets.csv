@@ -1,0 +1,15 @@
+Metric,Target,Warning_Threshold,Critical_Threshold,Notes
+Monthly_Revenue,75000,50000,25000,Monthly revenue target
+Quarterly_Revenue,225000,175000,125000,Quarterly revenue target
+Annual_Revenue,900000,750000,600000,Annual revenue target
+BVI_Enrollment,32,24,20,Target BVI program enrollment
+BVI_Gross_Margin,35,25,20,Target BVI program margin (%)
+Gala_Tickets,275,200,150,Target gala ticket sales
+Gala_Tables,5,3,2,Target gala table sales
+Corporate_Close_Rate,50,40,30,Target corporate sponsorship close rate (%)
+Foundation_Close_Rate,40,30,20,Target foundation grant close rate (%)
+Minimum_Runway,24,9,6,Target months of runway
+Maximum_Burn_Multiple,1.5,2,3,Target efficiency ratio
+Minimum_Cash_Balance,1500000,1250000,1000000,Minimum cash to maintain
+Break_Even_Month,Aug-25,Oct-25,Dec-25,Month to achieve break-even
+Program_Margin,40,30,25,Minimum program contribution margin (%)

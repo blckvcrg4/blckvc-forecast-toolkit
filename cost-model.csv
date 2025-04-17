@@ -1,0 +1,19 @@
+Expense_Category,Type,Apr-25,May-25,Jun-25,Jul-25,Aug-25,Sep-25,Oct-25,Nov-25,Dec-25,Notes
+BVI_COGS,Variable,0,0,0,0,0,48000,0,0,0,Variable costs for BVI program (60% of revenue)
+BVI_Fixed,Fixed,0,0,0,0,10000,10000,0,0,0,Fixed costs for program preparations and delivery
+SOBVR_COGS,Variable,22000,0,0,0,0,0,0,0,0,Variable costs for State of Black Venture Report (40%)
+Gala_COGS,Variable,0,0,106250,0,0,0,0,0,0,Variable costs for Gala (50% of revenue)
+Gala_Fixed,Fixed,0,0,20000,0,0,0,0,0,0,Fixed costs for venue and core production
+Dinner_COGS,Variable,0,3000,0,3000,3000,3000,0,0,0,Variable costs for fundraising dinners (20%)
+Merchandise_COGS,Variable,875,875,875,875,875,875,875,875,875,Variable costs for merchandise sales (70%)
+BD_Contractor,Semi-Fixed,10000,10000,10000,10000,10000,10000,10000,10000,10000,Business development contractor
+Marketing_Contractor,Semi-Fixed,7500,7500,7500,7500,7500,7500,7500,7500,7500,Marketing contractor
+Programs_Contractor,Semi-Fixed,12500,12500,12500,12500,12500,12500,12500,12500,12500,Programs management contractor
+Ind_Giving_Contractor,Semi-Fixed,5000,5000,5000,5000,5000,5000,5000,5000,5000,Individual giving contractor
+Software_Subscriptions,Semi-Fixed,2500,2500,2500,2500,2500,2500,2500,2500,2500,SaaS and tech subscriptions
+Professional_Fees,Fixed,5000,5000,5000,5000,5000,5000,5000,5000,5000,Legal and accounting fees
+Overhead,Fixed,7500,7500,7500,7500,7500,7500,7500,7500,7500,Office and admin expenses
+CEO_Salary,Fixed,15000,15000,15000,15000,15000,15000,15000,15000,15000,CEO compensation
+Operations_Salary,Fixed,8750,8750,8750,8750,8750,8750,8750,8750,8750,Operations staff compensation
+Benefits,Fixed,4750,4750,4750,4750,4750,4750,4750,4750,4750,Benefits (20% of salaries)
+Total_Expenses,=SUM(C3:C18),112875,93875,213125,93875,93875,141875,93875,93875,93875,All expenses for the month
