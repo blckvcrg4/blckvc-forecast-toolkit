@@ -2,6 +2,7 @@
   "name": "blckvc-forecast-toolkit",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://blckvcrg4.github.io/blckvc-forecast-toolkit/",
   "dependencies": {
     "@octokit/rest": "^19.0.7",
     "@testing-library/jest-dom": "^5.16.5",
